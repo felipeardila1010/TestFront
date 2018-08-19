@@ -1,0 +1,14 @@
+{
+  "core": {
+    "libraries": {
+      "log4js": {},
+      "express": {
+        "port": "37000",
+        "prefix": "/testFront/1.0/"
+      }
+    }
+  },
+  "modules": {
+    "hotels": {}
+  }
+}

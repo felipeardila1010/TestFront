@@ -1,0 +1,19 @@
+{
+  "appenders": {
+    "app": {
+      "type": "console",
+      "layout": {
+        "type": "pattern",
+        "pattern": "[%d{ISO8601}][%[%p%]][%c]\t%m"
+      }
+    }
+  },
+  "categories": {
+    "default": {
+      "appenders": [
+        "app"
+      ],
+      "level": "ALL"
+    }
+  }
+}
