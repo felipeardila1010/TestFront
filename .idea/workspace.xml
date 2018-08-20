@@ -2,9 +2,128 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="178f1bff-1341-4e83-a7d7-612dc3e94e1b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/backend/resources/error.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/modules/hotels/resources/error.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/modules/hotels/resources/hotels.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/app-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/icons/amenities/bathrobes.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/icons/amenities/bathtub.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/icons/amenities/beach-pool-facilities.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/icons/amenities/beach.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/icons/amenities/business-center.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/icons/amenities/children-club.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/icons/amenities/coffe-maker.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/icons/amenities/deep-soaking-bathtub.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/icons/amenities/fitness-center.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/icons/amenities/garden.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/icons/amenities/kitchen-facilities.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/icons/amenities/newspaper.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/icons/amenities/nightclub.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/icons/amenities/restaurant.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/icons/amenities/safety-box.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/icons/amenities/separate-bredroom.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/icons/amenities/sheets.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/icons/filters/search.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/icons/filters/star.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/00650d24_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/10210122_194_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/10968139_27_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/1110876_60_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/115596_172_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/11820110_10_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/11908954_150_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/1191401_110_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/11920422_40_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/12287657_13_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/1231695_139_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/12627687_102_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/12808943_13_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/1354077_84_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/1574025_73_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/1580314_67_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/164283a_hb_a_001.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/1688561_29_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/1688562_53_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/1773941_61_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/1774520_182_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/1777231_85_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/1876197_31_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/1876458_102_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/200684_222_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/2039609_120_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/23645_15_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/2537805_1_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/2803127_64_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/2a5bb415_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/3045476_5_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/3124310_1_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/3334784_86_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/3474909_52_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/3612838_12_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/3688061_52_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/3688064_92_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/386779_53_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/3952922_27_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/4099852_34_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/412713_46_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/4241228_30_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/430037_31_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/4357289_55_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/4359018_144_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/4417477_17_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/4478078_39_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/4479382_65_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/44e00399_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/4546549_9_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/4618948_40_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/4626475_1_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/46512_29_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/4688439_88_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/480835_73_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/484066_158_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/4846837_5_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/4850335_10_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/48784_97_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/4900059_30_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/4982472_16_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/4982482_7_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/4d72efed_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/5030807_9_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/519318_82_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/525844_90_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/530284_167_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/5379215_11_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/5405282_15_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/5429945_8_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/583479_86_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/5981696_40_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/5987363_77_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/6153044_28_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/6214511_57_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/63569_150_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/6623490_6_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/6900423_6_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/6975518_43_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/7700456_3_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/7864635_1_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/802720_60_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/81959_63_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/85248126_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/893882_7_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/8962073_23_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/897079_215_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/917bd6d1_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/9291429_9_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/9320547_26_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/9365800_92_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/9438646_27_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/9649999_27_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/981018_26_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/9817258_55_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/9866569_13_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/9866986_18_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/9ae3980d_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/b3e281b1_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/hotels/d44c63f1_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/logo-almundo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,7 +136,60 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="main.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/src/app/module/main/main.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+              <folding>
+                <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="filter.component.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/frontend/src/app/shared/filter/filter.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="filter.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/src/app/shared/filter/filter.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="50" column="49" lean-forward="true" selection-start-line="50" selection-start-column="49" selection-end-line="50" selection-end-column="49" />
+              <folding>
+                <element signature="n#div#1;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/src/app/module/main/main.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="29" column="43" lean-forward="true" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
+              <folding>
+                <element signature="e#0#50#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -26,6 +198,19 @@
       <find>body</find>
       <find>params</find>
       <find>scrap</find>
+      <find>assets</find>
+      <find>r</find>
+      <find>fon</find>
+      <find>formHotel</find>
+      <find>form</find>
+      <find>content-filter-hotel</find>
+      <find>ntent-filter-hotel</find>
+      <find>dodgerblue</find>
+      <find>text</find>
+      <find>text-dodgerblue</find>
+      <find>s</find>
+      <find>btn-color-dark-blue</find>
+      <find>filterStarsHotel</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/backend</dir>
@@ -48,6 +233,21 @@
         <option value="$PROJECT_DIR$/backend/package.json" />
         <option value="$PROJECT_DIR$/backend/src/modules/hotels/service/HotelsService.js" />
         <option value="$PROJECT_DIR$/backend/README.md" />
+        <option value="$PROJECT_DIR$/frontend/src/index.html" />
+        <option value="$PROJECT_DIR$/frontend/src/app/app-routing.module.ts" />
+        <option value="$PROJECT_DIR$/frontend/src/app/app.component.css" />
+        <option value="$PROJECT_DIR$/frontend/src/app/app.component.html" />
+        <option value="$PROJECT_DIR$/frontend/package.json" />
+        <option value="$PROJECT_DIR$/frontend/src/styles.css" />
+        <option value="$PROJECT_DIR$/frontend/angular.json" />
+        <option value="$PROJECT_DIR$/frontend/src/app/shared/filter/filter.component.css" />
+        <option value="$PROJECT_DIR$/frontend/src/app/module/main/main.service.ts" />
+        <option value="$PROJECT_DIR$/frontend/src/app/module/main/main.component.css" />
+        <option value="$PROJECT_DIR$/frontend/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/frontend/src/app/module/main/main.component.html" />
+        <option value="$PROJECT_DIR$/frontend/src/app/shared/filter/filter.component.html" />
+        <option value="$PROJECT_DIR$/frontend/src/app/module/main/main.component.ts" />
+        <option value="$PROJECT_DIR$/frontend/src/app/shared/filter/filter.component.ts" />
       </list>
     </option>
   </component>
@@ -59,17 +259,18 @@
   </component>
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/backend/node_modules" />
+    <handled-path value="$PROJECT_DIR$/frontend/node_modules" />
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
       <path value="$PROJECT_DIR$/backend/package.json" />
+      <path value="$PROJECT_DIR$/frontend/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1292" />
-    <option name="y" value="29" />
-    <option name="width" value="1601" />
-    <option name="height" value="875" />
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="x" value="1280" />
+    <option name="width" value="1600" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -82,6 +283,58 @@
             <path>
               <item name="TestFront" type="b2602c69:ProjectViewProjectNode" />
               <item name="TestFront" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestFront" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestFront" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestFront" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestFront" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestFront" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestFront" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestFront" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestFront" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="module" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestFront" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestFront" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="module" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestFront" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestFront" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="shared" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestFront" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestFront" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="shared" type="462c0819:PsiDirectoryNode" />
+              <item name="filter" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -99,9 +352,11 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="settings.javascript.linters.tslint" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/frontend/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/frontend/src/assets" />
       <recent name="$PROJECT_DIR$/backend/src/modules/hotels/resources" />
     </key>
   </component>
@@ -135,33 +390,35 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534650837648</updated>
-      <workItem from="1534650839198" duration="4835000" />
+      <workItem from="1534650839198" duration="31479000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4835000" />
+    <option name="totallyTimeSpent" value="31479000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1280" y="23" width="1600" height="877" extended-state="6" />
+    <frame x="1601" y="0" width="1279" height="900" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24952501" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32984293" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32984293" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="TypeScript" order="5" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.31319556" />
+      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="6" weight="0.32984293" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.32984293" />
+      <window_info anchor="bottom" id="Version Control" order="3" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="2" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info id="Favorites" order="0" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="right" x="0" y="0" width="350" height="677" id="Documentation" side_tool="true" weight="0.32991013" />
     </layout>
   </component>
@@ -178,9 +435,6 @@
           <caret column="1" selection-start-column="1" selection-end-column="1" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/Boot.js">
       <provider selected="true" editor-type-id="text-editor" />
@@ -265,6 +519,163 @@
             <caret line="4" column="40" lean-forward="true" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/polyfills.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/assets/.gitkeep">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/app-routing.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/assets/icons/filters/search.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/assets/images/logo-almundo.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/assets/icons/filters/star.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/assets/icons/amenities/beach.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/angular.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/app.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/shared/filter/filter.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="42" selection-start-line="42" selection-end-line="45" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/module/main/main.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/module/main/main.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="21" lean-forward="true" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/module/main/main.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="43" lean-forward="true" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/module/main/main.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/shared/filter/filter.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="50" column="49" lean-forward="true" selection-start-line="50" selection-start-column="49" selection-end-line="50" selection-end-column="49" />
+          <folding>
+            <element signature="n#div#1;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/shared/filter/filter.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
         </state>
       </provider>
     </entry>

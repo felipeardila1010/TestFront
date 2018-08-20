@@ -1,0 +1,49 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-3">
+      <app-filter (onClickFilterHotel)="filterHotel($event)" (onChangeFilterStarsHotel)="onChangeFilterStarsHotel($event)"></app-filter>
+    </div>
+    <div class="col-9">
+      <div *ngFor="let hotel of hotels" class="container justify-content-between p-2">
+        <div class="row shadow-lg p-2 bg-white">
+          <div class="col-9">
+            <div class="container">
+              <div class="row">
+                <div class="col-7">
+                  <img [src]="getPathImagesHotels(hotel['image'])" height="220" width="330">
+                </div>
+                <div class="col-3">
+                  <div class="text-left text-dodgerblue">
+                    <span>{{ hotel['name'] }}</span>
+                    <div class="stairs text-warning">
+                      <i *ngFor="let star of generateArrayStars(hotel['stars'])" class="fa fa-star"></i>
+                    </div>
+                    <div class="content-amenities">
+                      <a *ngFor="let amenity of hotel['amenities']">
+                        <img [src]="getPathSvgAmenities(amenity)" width="20" height="20"/>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 border-left">
+            <div class="container">
+              <div class="col">
+                <div class="text-center">
+                  <span class="text-value-hotel">Precio por noche por habitación</span>
+                  <div class="value-hotel">
+                    <span class="type">ARS</span>
+                    <span class="value">{{ hotel['price'] }}</span>
+                    <button type="submit" class="btn btn-color-dark-blue btn-md btn-block">Ver hotel</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

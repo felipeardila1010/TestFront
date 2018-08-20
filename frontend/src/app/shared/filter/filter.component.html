@@ -1,0 +1,123 @@
+<!-- Primer contenedor de filtros -->
+<div class="shadow-lg p-2 mb-1 bg-white">
+  Filtros
+</div>
+<!-- Segundo contenedor de filtro por hotel -->
+<div class="shadow-lg p-2 mb-1 bg-white text-dodgerblue filters">
+  <div class="text-right">
+    <i (click)="isCollapsedFilterHotel = !isCollapsedFilterHotel" [attr.aria-expanded]="!isCollapsedFilterHotel"
+       aria-controls="form-hotel">
+      <i class="fa fa-caret-up"></i>
+    </i>
+  </div>
+  <div class="filter">
+    <div class="text-left">
+      <div class="icon-search icon-dodgerblue"></div>
+      <span class="text-left">Nombre de hotel</span>
+    </div>
+    <form id="form-hotel" [collapse]="isCollapsedFilterHotel">
+      <div class="form-row">
+        <div class="col-8">
+          <input type="text" class="form-control form-control-sm" placeholder="Ingrese el nombre del hotel"
+                 name="filterHotel" [(ngModel)]="filterHotel">
+        </div>
+        <div class="col">
+          <button class="btn btn-color-dark-blue btn-sm" (click)="onSubmitFilterHotel()">Aceptar</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+<!-- Tercer contenedor de filtro por estrellas -->
+<div class="shadow-lg p-2 mb-1 bg-white filters">
+  <div class="text-right text-dodgerblue">
+    <i (click)="isCollapsedFilterStar = !isCollapsedFilterStar" [attr.aria-expanded]="!isCollapsedFilterStar"
+       aria-controls="form-hotel">
+      <i class="fa fa-caret-up"></i>
+    </i>
+  </div>
+  <div class="filter">
+    <div class="text-left text-dodgerblue">
+      <div class="icon-star icon-dodgerblue"></div>
+      <span class="text-left">Estrellas</span>
+    </div>
+    <div class="form-row form-stars text-warning" [collapse]="isCollapsedFilterStar">
+      <div class="container">
+        <div class="row">
+          <div class="col-1">
+            <input class="form-control-sm" type="checkbox" [checked]="filterStarsHotel['all']"
+                   (change)="changeFilterStarsHotel('all')">
+          </div>
+          <div class="col text-dark center-star">
+            Todas las estrellas
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-1">
+            <input class="form-control-sm" type="checkbox" [checked]="filterStarsHotel['5']"
+                   (change)="changeFilterStarsHotel('5')">
+          </div>
+          <div class="col">
+            <div class="stairs">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-1">
+            <input class="form-control-sm" type="checkbox" [checked]="filterStarsHotel['4']"
+                   (change)="changeFilterStarsHotel('4')">
+          </div>
+          <div class="col">
+            <div class="stairs">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-1">
+            <input class="form-control-sm" type="checkbox" [checked]="filterStarsHotel['3']"
+                   (change)="changeFilterStarsHotel('3')">
+          </div>
+          <div class="col">
+            <div class="stairs">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-1">
+            <input class="form-control-sm" type="checkbox" [checked]="filterStarsHotel['2']"
+                   (change)="changeFilterStarsHotel('2')">
+          </div>
+          <div class="col">
+            <div class="stairs">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-1">
+            <input class="form-control-sm" type="checkbox" [checked]="filterStarsHotel['1']"
+                   (change)="changeFilterStarsHotel('1')">
+          </div>
+          <div class="col">
+            <div class="stairs">
+              <i class="fa fa-star"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

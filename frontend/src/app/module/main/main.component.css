@@ -1,0 +1,41 @@
+.content-box {
+  background: #ffffff none repeat scroll 0 0;
+}
+
+.text-dodgerblue {
+  color: dodgerblue;
+}
+
+.fa-star {
+  padding-right: 5px;
+}
+
+.hr-vertical {
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.text-value-hotel {
+  font-size: small;
+  color: gray;
+}
+
+.value-hotel {
+  color: darkorange;
+}
+
+.value-hotel .value {
+  font-size: 21px;
+}
+
+.value-hotel .value {
+  margin-left: 5px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.btn-color-dark-blue {
+  background-color: #0a4a8f;
+  color: white;
+}
+
