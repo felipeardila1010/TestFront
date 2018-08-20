@@ -1,18 +1,19 @@
 <div class="container-fluid">
   <div class="row">
-    <div class="col-3">
-      <app-filter (onClickFilterHotel)="filterHotel($event)" (onChangeFilterStarsHotel)="onChangeFilterStarsHotel($event)"></app-filter>
+    <div class="col-sm-0 col-md-4 col-lg-3">
+      <app-filter (onClickFilterHotel)="filterHotel($event)"
+                  (onChangeFilterStarsHotel)="onChangeFilterStarsHotel($event)"></app-filter>
     </div>
-    <div class="col-9">
+    <div class="col-sm-12 col-md-8 col-lg-9">
       <div *ngFor="let hotel of hotels" class="container justify-content-between p-2">
         <div class="row shadow-lg p-2 bg-white">
-          <div class="col-9">
+          <div class="col-sm-12 col-lg-9 mb-4">
             <div class="container">
               <div class="row">
-                <div class="col-7">
-                  <img [src]="getPathImagesHotels(hotel['image'])" height="220" width="330">
+                <div class="col-sm-12 col-md-8 col-lg-7">
+                  <img class="img-fluid" [src]="getPathImagesHotels(hotel['image'])" height="220">
                 </div>
-                <div class="col-3">
+                <div class="col-sm-12 col-md-4 col-lg-5">
                   <div class="text-left text-dodgerblue">
                     <span>{{ hotel['name'] }}</span>
                     <div class="stairs text-warning">
@@ -20,7 +21,7 @@
                     </div>
                     <div class="content-amenities">
                       <a *ngFor="let amenity of hotel['amenities']">
-                        <img [src]="getPathSvgAmenities(amenity)" width="20" height="20"/>
+                        <img class="amenities" [src]="getPathSvgAmenities(amenity)" width="20" height="20"/>
                       </a>
                     </div>
                   </div>
@@ -28,8 +29,8 @@
               </div>
             </div>
           </div>
-          <div class="col-3 border-left">
-            <div class="container">
+          <div class="col-sm-12 col-lg-3 border-top border-left">
+            <div class="container mt-3">
               <div class="col">
                 <div class="text-center">
                   <span class="text-value-hotel">Precio por noche por habitación</span>

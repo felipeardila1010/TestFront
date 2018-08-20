@@ -5,10 +5,11 @@ import {AppComponent} from './app.component';
 import {MainComponent} from './module/main/main.component';
 import {AppRoutingModule} from "./app-routing.module";
 import {HttpClientModule} from "@angular/common/http";
-import { FormsModule }   from '@angular/forms';
+import {FormsModule} from '@angular/forms';
 
 import {CollapseModule} from 'ngx-bootstrap/collapse';
 import {FilterComponent} from './shared/filter/filter.component';
+import {MainService} from "./module/main/main.service";
 
 @NgModule({
   declarations: [
@@ -23,7 +24,7 @@ import {FilterComponent} from './shared/filter/filter.component';
     FormsModule,
     CollapseModule.forRoot()
   ],
-  providers: [],
+  providers: [MainService],
   bootstrap: [AppComponent]
 })
 export class AppModule {

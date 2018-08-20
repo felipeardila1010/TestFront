@@ -1,4 +1,6 @@
+/** Sección de componentes de angular **/
 import {Component, OnInit} from '@angular/core';
+/** Sección de servicios **/
 import {MainService} from "./main.service";
 
 @Component({
@@ -6,14 +8,32 @@ import {MainService} from "./main.service";
   templateUrl: './main.component.html',
   styleUrls: ['./main.component.css']
 })
+/**
+ * Clase del controlador del modulo de negocio main
+ * Realiza la interaccion entre los componentes del filtrado de los hoteles
+ * @class MainComponent
+ * @author Andres Felipe Ardila Rivas - felipeardila1010@gmail.com
+ */
 export class MainComponent implements OnInit {
 
+  /** Contiene la lista de hoteles que se interactua con el DOM **/
   public hotels: Array<Object> = [];
+  /** Contiene la lista de hoteles que se capturo en el resultado del
+   * servicio **/
   public hotelsAll: Array<Object> = [];
 
+  /**
+   * Constructor de la clase
+   * @param {MainService} mainService
+   */
   constructor(private mainService: MainService) {
   }
 
+  /**
+   * Lyfe cycle - ngOnInit
+   * 1. realiza la solicitud al servicio del back para obtener
+   * el listado de los hoteles
+   */
   ngOnInit() {
     this.mainService.getHotels().then(result => {
       this.hotelsAll = result;
