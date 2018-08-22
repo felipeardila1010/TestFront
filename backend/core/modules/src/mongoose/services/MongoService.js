@@ -10,8 +10,6 @@ const MongoRepository = require("../repositories/MongoRepository");
  * @author Andres Felipe Ardila Rivas <felipeardila1010@gmail.com>
  * @copyright Andres Felipe Ardila Rivas 2018
  */
-const path = require('path');
-const log = global.app.core.libraries.log4js.getLogger(global.app.utils.module.changePathtoNameClass(__filename));
 
 class MongoService extends global.app.core.classes.Service {
     /**
@@ -30,4 +28,5 @@ class MongoService extends global.app.core.classes.Service {
         this._mongoRepository.connect(configGeneral);
     }
 }
+
 module.exports = MongoService;

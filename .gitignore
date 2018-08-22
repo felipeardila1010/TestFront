@@ -1,5 +1,5 @@
 package-lock.json
-.idea/
+.idea/*
 node_modules/
 npm-lock
 .DS_Store

@@ -5,6 +5,13 @@
       "express": {
         "port": "37000",
         "prefix": "/testFront/1.0/"
+      },
+      "mongoose": {
+        "host": "localhost",
+        "port": 27017,
+        "user": "user",
+        "password": "hotels123",
+        "database": "hotels"
       }
     }
   },
