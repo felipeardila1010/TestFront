@@ -9,9 +9,7 @@
       "mongoose": {
         "host": "localhost",
         "port": 27017,
-        "user": "user",
-        "password": "hotels123",
-        "database": "hotels"
+        "database": "TestFront"
       }
     }
   },

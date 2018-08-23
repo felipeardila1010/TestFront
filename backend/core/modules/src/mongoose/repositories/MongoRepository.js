@@ -22,10 +22,25 @@ class MongoRepository extends global.app.core.classes.Repository {
     connect(configGeneral) {
         let dataConfigMongo = configGeneral.core.libraries.mongoose;
         log.debug('Cargando configuracion de mongo');
-        global.app.core.libraries.mongoose.connect(
-            `mongodb://${dataConfigMongo.host}:${dataConfigMongo.port}/${dataConfigMongo.db}`);
 
-        global.app.core.libraries.mongoose.connection.on('error', console.error.bind(console, 'Error: En la conexión de MongoDB'));
+        /** Se captura usuario y contraseña para definir estructura de conexión **/
+        let password = (dataConfigMongo.password != null) ? dataConfigMongo.password : '';
+        let userPassword = (dataConfigMongo.user != null) ? `${dataConfigMongo.user}:${password}@` : '';
+
+        try {
+            global.app.core.libraries.mongoose.connect(
+                `mongodb://${userPassword}${dataConfigMongo.host}:${dataConfigMongo.port}/${dataConfigMongo.db}`,
+                {useNewUrlParser: true});
+
+            global.app.core.libraries.mongoose.connection.on('error', console.error.bind(console, 'Error: En la conexión de MongoDB'));
+
+            global.app.core.libraries.mongoose.connection.once('open', () => {
+                log.info(`Conexión exitosa a la base de datos ${dataConfigMongo.database} en MongoDB`);
+            });
+        } catch (error) {
+            log.error(`Error: En la conexión a la base de datos de Mongo.`);
+            log.error(error);
+        }
     }
 }
 

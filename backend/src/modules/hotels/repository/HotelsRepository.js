@@ -1,6 +1,7 @@
 "use strict";
 
 const log = global.app.core.libraries.log4js.getLogger(global.app.utils.module.changePathtoNameClass(__filename));
+const HotelSchema = require('./schema/HotelSchema');
 
 /**
  * Clase del repositorio del modulo que realiza la logica para repositorios externos
@@ -24,19 +25,44 @@ class HotelsRepository extends global.app.core.classes.Repository {
      */
     hotels(id) {
         return new Promise((resolve, reject) => {
-            if (id != null) {
-                log.info(`Retornando datos del hotel con id ${id}`);
-                for (let hotel of this._mockHotels) {
-                    if (hotel.id == id) {
-                        resolve(hotel);
-                    }
-                }
+            log.info('antes');
+            let HotelModel = global.app.core.libraries.mongoose.model('Hotel', HotelSchema.build());
 
-                reject({status: 204, message: undefined});
-            } else {
-                log.info('Retornando el listado de hoteles');
-                resolve(this._mockHotels);
-            }
+            let example = new HotelModel({
+                "id": "249942",
+                "name": "Hotel Stefanos",
+                "stars": 3,
+                "price": 994.18,
+                "image": "4900059_30_b.jpg",
+                "amenities": [
+                    "safety-box",
+                    "nightclub",
+                    "deep-soaking-bathtub",
+                    "beach",
+                    "business-center"
+                ]
+            });
+
+            example.save();
+
+            // example.save().then((response) => {
+            //    console.log(response);
+            // });
+
+            resolve();
+            // if (id != null) {
+            //     log.info(`Retornando datos del hotel con id ${id}`);
+            //     for (let hotel of this._mockHotels) {
+            //         if (hotel.id == id) {
+            //             resolve(hotel);
+            //         }
+            //     }
+            //
+            //     reject({status: 204, message: undefined});
+            // } else {
+            //     log.info('Retornando el listado de hoteles');
+            //     resolve(this._mockHotels);
+            // }
         });
     }
 
