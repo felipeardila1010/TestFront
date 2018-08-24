@@ -18,7 +18,7 @@ class Boot extends global.app.core.classes.BootCore {
     constructor() {
         super(__filename);
         try {
-            new HotelsRestController();
+            this._hotelsRestController = new HotelsRestController();
         } catch (error) {
             log.error(error);
         }
@@ -29,6 +29,7 @@ class Boot extends global.app.core.classes.BootCore {
      */
     setup() {
         log.info("Configurando modulo de Hotels");
+        this._hotelsRestController.createRoutes();
     }
 }
 

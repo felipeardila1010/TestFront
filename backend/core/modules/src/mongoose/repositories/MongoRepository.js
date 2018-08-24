@@ -29,7 +29,7 @@ class MongoRepository extends global.app.core.classes.Repository {
 
         try {
             global.app.core.libraries.mongoose.connect(
-                `mongodb://${userPassword}${dataConfigMongo.host}:${dataConfigMongo.port}/${dataConfigMongo.db}`,
+                `mongodb://${userPassword}${dataConfigMongo.host}:${dataConfigMongo.port}/${dataConfigMongo.database}`,
                 {useNewUrlParser: true});
 
             global.app.core.libraries.mongoose.connection.on('error', console.error.bind(console, 'Error: En la conexión de MongoDB'));
