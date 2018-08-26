@@ -46,16 +46,13 @@ class HotelsRepository extends global.app.core.classes.Repository {
     post(data) {
         return new Promise((resolve, reject) => {
             const hotelNew = new this.HotelModel(data);
-
-            hotelNew.save((error) => {
-                if (error) {
-                    log.error(handleError(error));
-                    reject(handleError(error));
-                }
+            hotelNew.save().then(response => {
                 log.info('Hotel guardado con éxito');
+                resolve(response);
+            }).catch(error => {
+                log.error(error);
+                reject({status: 204, message: error});
             });
-
-            resolve(hotelNew.find());
         });
     }
 
@@ -66,18 +63,15 @@ class HotelsRepository extends global.app.core.classes.Repository {
      */
     put(data) {
         return new Promise((resolve, reject) => {
-            console.log(data);
             const hotelNew = new this.HotelModel(data);
-            console.log(hotelNew.id);
-            hotelNew.update({id: hotelNew.id},{ '$set': { name: 'jason bourne' }},{ multi: true },(error) => {
-                if (error) {
-                    log.error(handleError(error));
-                    reject(handleError(error));
-                }
-                log.info('Hotel actualizado con éxito');
-            });
-
-            resolve(hotelNew.find());
+            hotelNew.update({id: hotelNew.id}, {'$set': {name: 'jason bourne'}}, {multi: true})
+                .then(response => {
+                    log.info('Hotel actualizado con éxito');
+                    resolve(response);
+                }).catch(error => {
+                    log.error(error);
+                    reject({status: 204, message: error});
+                });
         });
     }
 }
