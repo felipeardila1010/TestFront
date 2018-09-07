@@ -64,14 +64,22 @@ class HotelsRepository extends global.app.core.classes.Repository {
     put(data) {
         return new Promise((resolve, reject) => {
             const hotelNew = new this.HotelModel(data);
-            hotelNew.update({id: hotelNew.id}, {'$set': {name: 'jason bourne'}}, {multi: true})
-                .then(response => {
-                    log.info('Hotel actualizado con éxito');
-                    resolve(response);
-                }).catch(error => {
-                    log.error(error);
-                    reject({status: 204, message: error});
-                });
+            this.get(hotelNew.id).then(responseGet => {
+                if (responseGet.length > 0) {
+                    log.info(hotelNew);
+                    log.info(responseGet);
+                    this.post(hotelNew).then(response => {
+                        log.info('Hotel actualizado con éxito');
+                        resolve(response);
+                    });
+                } else {
+                    log.info('No existe el id a actualizar');
+                    reject({status: 409, message: ''})
+                }
+            }).catch(error => {
+                log.error(error);
+                reject({status: 204, message: error});
+            });
         });
     }
 }
