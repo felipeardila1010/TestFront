@@ -69,6 +69,24 @@ class HotelsService extends global.app.core.classes.Service {
                 });
         });
     }
+
+    /**
+     * Busca el id y elimina el elemento en BD
+     * Encargada de solicitar los datos al repositorio del modulo para
+     * retornar los datos
+     * @param {String} id - identificador del hotel a eliminar
+     * @return {Promise<any>} Promesa del resultado del servicio
+     */
+    delete(id) {
+        return new Promise((resolve, reject) => {
+            this._hotelsRepository.delete(id)
+                .then((result) => {
+                    resolve(result);
+                }, (err) => {
+                    reject(err);
+                });
+        });
+    }
 }
 
 module.exports = HotelsService;

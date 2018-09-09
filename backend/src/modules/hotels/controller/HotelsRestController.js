@@ -23,7 +23,7 @@ class HotelsRestController extends global.app.core.classes.Controller {
         this.get();
         this.post();
         this.put();
-        // this.delete();
+        this.delete();
     }
 
     /**
@@ -69,6 +69,24 @@ class HotelsRestController extends global.app.core.classes.Controller {
         global.app.router.put(this._pathRoute, (req, res) => {
             log.trace('Hotels - Recibiendo peticion put');
             this._hotelsController.put(req.body)
+                .then((result) => {
+                    res.status(200).json(result);
+                }, (err) => {
+                    res.status(err.status).json(err.message);
+                }).catch((error) => {
+                log.error(error);
+                res.status(500).json(error);
+            });
+        });
+    }
+
+    /**
+     * Método de eliminar de hoteles
+     */
+    delete() {
+        global.app.router.delete(`${this._pathRoute}/:id?`, (req, res) => {
+            log.trace('Hotels - Recibiendo peticion get');
+            this._hotelsController.delete(req.params.id)
                 .then((result) => {
                     res.status(200).json(result);
                 }, (err) => {

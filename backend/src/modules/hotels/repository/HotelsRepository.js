@@ -27,8 +27,8 @@ class HotelsRepository extends global.app.core.classes.Repository {
     get(id) {
         return new Promise((resolve, reject) => {
             try {
-                if (id != null) {
-                    resolve(this.HotelModel.find({id: id}));
+                if (id !== null) {
+                    resolve(this.HotelModel.findOne({id: id}));
                 } else {
                     resolve(this.HotelModel.find());
                 }
@@ -63,17 +63,42 @@ class HotelsRepository extends global.app.core.classes.Repository {
      */
     put(data) {
         return new Promise((resolve, reject) => {
-            const hotelNew = new this.HotelModel(data);
+            let hotelNew = new this.HotelModel(data);
             this.get(hotelNew.id).then(responseGet => {
                 if (responseGet.length > 0) {
-                    log.info(hotelNew);
-                    log.info(responseGet);
-                    this.post(hotelNew).then(response => {
+                    responseGet = responseGet[0];
+                    hotelNew = new HotelSchema().update(responseGet, hotelNew);
+                    hotelNew.save().then(response => {
                         log.info('Hotel actualizado con éxito');
                         resolve(response);
+                    }).catch(error => {
+                        log.error(error);
+                        reject({status: 204, message: error});
                     });
                 } else {
                     log.info('No existe el id a actualizar');
+                    reject({status: 409, message: ''})
+                }
+            }).catch(error => {
+                log.error(error);
+                reject({status: 204, message: error});
+            });
+        });
+    }
+
+    delete(id) {
+        return new Promise((resolve, reject) => {
+            this.get(id).then(responseGet => {
+                if (responseGet.length > 0) {
+                    this.HotelModel.deleteOne({id: responseGet[0].id}).then(response => {
+                        log.info('Hotel eliminado con éxito');
+                        resolve(response);
+                    }).catch(error => {
+                        log.error(error);
+                        reject({status: 204, message: error});
+                    });
+                } else {
+                    log.info('No existe el id a eliminar');
                     reject({status: 409, message: ''})
                 }
             }).catch(error => {

@@ -68,6 +68,23 @@ class HotelsController extends global.app.core.classes.Controller {
             })
         });
     }
+
+    /**
+     * Busca el id y elimina el elemento en BD
+     * Encargada de solicitar los datos al servicio del modulo para
+     * retornar los datos
+     * @param {String} id - identificador del hotel a eliminar
+     * @return {Promise<any>} Promesa del resultado del controlador
+     */
+    delete(id) {
+        return new Promise((resolve, reject) => {
+            this._hotelsService.delete(id).then((result) => {
+                resolve(result);
+            }, (err) => {
+                reject(err);
+            })
+        });
+    }
 }
 
 module.exports = HotelsController;
